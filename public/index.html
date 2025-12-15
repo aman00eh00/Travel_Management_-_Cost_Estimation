@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>trulytravels</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>TrulyTravels</h1>
+    <nav>
+      <button id="home-btn">Home</button>
+      <button id="history-btn">Trip History</button>
+      <button id="pricing-btn">Pricing</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home-section">
+      <div class="hero">
+        <h2>Plan Your Perfect Trip with <span style="color:#4a90e2;">Accurate Cost Estimates</span></h2>
+        <p>Get real-time pricing for flights, hotels, food, and activities. Compare destinations and optimize your travel budget with confidence.</p>
+        <button id="get-started-btn" style="background-color:#4a90e2; color:white; padding:10px 20px; border:none; border-radius:5px; cursor:pointer;">Get Started →</button>
+        <button id="learn-more-btn" style="background-color:transparent; color:#4a90e2; padding:10px 20px; border:1px solid #4a90e2; border-radius:5px; cursor:pointer;">Learn More</button>
+        <div style="margin-top:20px; display:flex; justify-content:center; gap:40px; color:#4a90e2;">
+          <div><span>📍</span> 200+ Destinations</div>
+          <div><span>$</span> Real-time Pricing</div>
+          <div><span>⏰</span> Instant Estimates</div>
+        </div>
+      </div>
+
+      <section id="features-section" style="margin-top:40px; max-width: 900px; margin-left:auto; margin-right:auto; color:#f8f7f7;">
+        <h2 style="text-align:center; margin-bottom:20px; color:#000080;">Everything You Need to Plan Your Trip</h2>
+        <p style="text-align:center; margin-bottom:40px; color:#000080;">Our comprehensive platform provides accurate cost estimates and smart recommendations to help you plan the perfect trip within your budget.</p>
+        <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
+          <div style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px;">
+            <h3>✈ Smart Flight Search <small style="float:right; background:#3054f3; padding:2px 6px; border-radius:5px;">AI Powered</small></h3>
+            <p style="color:#5dd39e;">Compare prices across multiple airlines and find the best deals for your travel dates.</p>
+          </div>
+          <div style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px;">
+            <h3>🏨 Accommodation Finder <small style="float:right; background:#3054f3; padding:2px 6px; border-radius:5px;">Real-time</small></h3>
+            <p style="color:#5dd39e;">From budget hostels to luxury hotels, find perfect stays within your budget range.</p>
+          </div>
+          <div style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px;">
+            <h3>🍽 Food Cost Analysis <small style="float:right; background:#3054f3; padding:2px 6px; border-radius:5px;">Local Data</small></h3>
+            <p style="color:#5dd39e;">Estimate daily food expenses based on local restaurant prices and dining preferences.</p>
+          </div>
+          <div style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px;">
+            <h3>📸 Activity Planning <small style="float:right; background:#3054f3; padding:2px 6px; border-radius:5px;">Curated</small></h3>
+            <p style="color:#5dd39e;">Discover attractions, tours, and experiences with accurate pricing information.</p>
+          </div>
+          <div style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px;">
+            <h3>📉 Cost Optimization <small style="float:right; background:#3054f3; padding:2px 6px; border-radius:5px;">Smart Savings</small></h3>
+            <p style="color:#5dd39e;">Get suggestions for alternative destinations and dates to save money.</p>
+          </div>
+          <div style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px;">
+            <h3>🛡 Reliable Estimates <small style="float:right; background:#3054f3; padding:2px 6px; border-radius:5px;">Verified</small></h3>
+            <p style="color:#5dd39e;">Accurate pricing based on real-time data from trusted travel partners.</p>
+          </div>
+          <div style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px;">
+            <h3>⏱ Instant Results <small style="float:right; background:#3054f3; padding:2px 6px; border-radius:5px;">Fast</small></h3>
+            <p style="color:#5dd39e;">Get comprehensive cost breakdowns in seconds, not hours of research.</p>
+          </div>
+          <div style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px;">
+            <h3>🌍 Global Coverage <small style="float:right; background:#3054f3; padding:2px 6px; border-radius:5px;">Worldwide</small></h3>
+            <p style="color:#5dd39e;">Plan trips to over 200 destinations worldwide with local pricing insights.</p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="history-section" class="hidden" style="margin-top:40px; max-width: 900px; margin-left:auto; margin-right:auto; color:#fff;">
+        <h2>Your Travel Planning History</h2>
+        <p>Review and compare your previous trip estimates</p>
+        <div id="trip-history" style="background:rgba(0,0,0,0.6); padding:20px; border-radius:10px; margin-top:20px;">
+          <h3>Trip History</h3>
+          <p>Your previous trip estimates will appear here</p>
+          <p>No trip estimates yet. Create your first estimate above!</p>
+        </div>
+      </section>
+    </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

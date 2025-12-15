@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Plan Your Trip</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>TrulyTravels</h1>
+    <nav>
+      <button id="home-btn">Home</button>
+      <button id="history-btn">Trip History</button>
+      <button id="pricing-btn">Pricing</button>
+      <button id="plan-btn">Plan Trip</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="plan-trip-section">
+      <h2>Plan Your Trip</h2>
+      <form id="trip-form">
+        <div class="form-group">
+          <label for="origin">From:</label>
+          <input type="text" id="origin" required placeholder="City or IATA (e.g. Delhi or DEL)">
+        </div>
+        <div class="form-group">
+          <label for="destination">To:</label>
+          <input type="text" id="destination" required placeholder="City or IATA (e.g. Mumbai or BOM)">
+        </div>
+        <div class="form-group">
+          <label for="start-date">Departure Date:</label>
+          <input type="date" id="start-date" required>
+        </div>
+        <div class="form-group">
+          <label for="end-date">Return Date:</label>
+          <input type="date" id="end-date" required>
+        </div>
+        <div class="form-group">
+          <label for="travelers">Number of Travelers:</label>
+          <input type="number" id="travelers" min="1" value="1" required>
+        </div>
+
+        <div class="form-group">
+          <label for="accommodation">Accommodation</label>
+          <select id="accommodation">
+            <option value="budget">Budget</option>
+            <option value="mid" selected>Mid-range</option>
+            <option value="luxury">Luxury</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="transportation">Transportation</label>
+          <select id="transportation">
+            <option value="economy" selected>Economy</option>
+            <option value="premium">Premium</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="promoCode">Promo code (optional)</label>
+          <input id="promoCode" placeholder="SAVE10 or FLAT500">
+        </div>
+
+        <button type="submit" class="primary">Estimate Trip Cost</button>
+      </form>
+
+      <section id="results-section" class="hidden">
+        <div id="cost-breakdown"></div>
+        <button id="save-trip-btn" class="secondary">Save Trip</button>
+        <button id="download-pdf-btn" class="secondary">Download PDF</button>
+      </section>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

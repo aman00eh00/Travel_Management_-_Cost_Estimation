@@ -1,0 +1,224 @@
+[
+  {
+    "id": "1765424546236",
+    "origin": "Delhi",
+    "destination": "Mumbai",
+    "startDate": "2025-12-15",
+    "endDate": "2025-12-20",
+    "travelers": "2",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 12000,
+      "accommodation": 12500,
+      "food": 5000,
+      "activities": 2400,
+      "misc": 600,
+      "flightPerPerson": 6000,
+      "flightSource": "fallback"
+    },
+    "totalCost": 32500,
+    "meta": {
+      "nights": 5,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-11T03:42:26.236Z"
+  },
+  {
+    "id": "1765424428782",
+    "origin": "Delhi",
+    "destination": "Mumbai",
+    "startDate": "2025-12-15",
+    "endDate": "2025-12-20",
+    "travelers": "2",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 12000,
+      "accommodation": 12500,
+      "food": 5000,
+      "activities": 2400,
+      "misc": 600,
+      "flightPerPerson": 6000,
+      "flightSource": "fallback"
+    },
+    "totalCost": 32500,
+    "meta": {
+      "nights": 5,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-11T03:40:28.782Z"
+  },
+  {
+    "id": "1765423199629",
+    "origin": "DEL",
+    "destination": "BOM",
+    "startDate": "2025-12-12",
+    "endDate": "2025-12-20",
+    "travelers": "2",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 12000,
+      "accommodation": 20000,
+      "food": 8000,
+      "activities": 2400,
+      "misc": 600,
+      "flightPerPerson": 6000,
+      "flightSource": "fallback"
+    },
+    "totalCost": "49000fallback",
+    "meta": {
+      "nights": 8,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-11T03:19:59.629Z"
+  },
+  {
+    "id": "1765423138490",
+    "origin": "DEL",
+    "destination": "BOM",
+    "startDate": "2025-12-12",
+    "endDate": "2025-12-20",
+    "travelers": "2",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 12000,
+      "accommodation": 20000,
+      "food": 8000,
+      "activities": 2400,
+      "misc": 600,
+      "flightPerPerson": 6000,
+      "flightSource": "fallback"
+    },
+    "totalCost": "49000fallback",
+    "meta": {
+      "nights": 8,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-11T03:18:58.490Z"
+  },
+  {
+    "id": "1765422891479",
+    "origin": "DEL",
+    "destination": "BOM",
+    "startDate": "2025-12-12",
+    "endDate": "2025-12-20",
+    "travelers": "2",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 12000,
+      "accommodation": 20000,
+      "food": 8000,
+      "activities": 2400,
+      "misc": 600,
+      "flightPerPerson": 6000,
+      "flightSource": "fallback"
+    },
+    "totalCost": "49000fallback",
+    "meta": {
+      "nights": 8,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-11T03:14:51.480Z"
+  },
+  {
+    "id": "1765343670341",
+    "origin": "Delhi",
+    "destination": "Goa",
+    "startDate": "2025-12-14",
+    "endDate": "2026-01-15",
+    "travelers": "1",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "GOI",
+    "breakdown": {
+      "transportation": 6504,
+      "accommodation": 80000,
+      "food": 16000,
+      "activities": 1200,
+      "misc": 300,
+      "flightPerPerson": 6504,
+      "flightSource": "amadeus"
+    },
+    "totalCost": "110508amadeus",
+    "meta": {
+      "nights": 32,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-10T05:14:30.341Z"
+  },
+  {
+    "id": "1765343666452",
+    "origin": "Delhi",
+    "destination": "Goa",
+    "startDate": "2025-12-14",
+    "endDate": "2026-01-15",
+    "travelers": "1",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "GOI",
+    "breakdown": {
+      "transportation": 6504,
+      "accommodation": 80000,
+      "food": 16000,
+      "activities": 1200,
+      "misc": 300,
+      "flightPerPerson": 6504,
+      "flightSource": "amadeus"
+    },
+    "totalCost": "110508amadeus",
+    "meta": {
+      "nights": 32,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-10T05:14:26.452Z"
+  },
+  {
+    "id": "1765343539821",
+    "origin": "Delhi",
+    "destination": "Goa",
+    "startDate": "2025-12-14",
+    "endDate": "2026-01-15",
+    "travelers": "1",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "SAVE10",
+    "originIATA": "DEL",
+    "destinationIATA": "GOI",
+    "breakdown": {
+      "transportation": 6504,
+      "accommodation": 80000,
+      "food": 16000,
+      "activities": 1200,
+      "misc": 300,
+      "flightPerPerson": 6504,
+      "flightSource": "amadeus"
+    },
+    "totalCost": "110508amadeus",
+    "meta": {
+      "nights": 32,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-10T05:12:19.822Z"
+  }
+]
