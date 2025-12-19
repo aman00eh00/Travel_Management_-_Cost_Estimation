@@ -92,9 +92,12 @@
       pricingSection?.classList.remove("hidden");
     }
 
-    if (homeBtn) homeBtn.onclick = showHome;
-    if (historyBtn) historyBtn.onclick = showHistory;
-    if (pricingBtn) pricingBtn.onclick = showPricing;
+    if (homeBtn) homeBtn.onclick = () => (location.href = "index.html");
+    if (historyBtn) historyBtn.onclick = () => {
+      location.href = "index.html";
+      // Note: To show history, we can add a hash or parameter, but for simplicity, redirect to index.html
+    };
+    if (pricingBtn) pricingBtn.onclick = () => (location.href = "pricing.html");
     if (planBtn) planBtn.onclick = () => (location.href = "plan-trip.html");
 
     // ⭐⭐⭐ GET STARTED BUTTON FIXED ⭐⭐⭐

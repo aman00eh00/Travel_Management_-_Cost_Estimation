@@ -247,16 +247,16 @@ app.post("/api/export-pdf", async (req, res) => {
     write("TrulyTravels — Trip Summary", 18);
     write(`From: ${trip.origin} (${trip.originIATA})`);
     write(`To: ${trip.destination} (${trip.destinationIATA})`);
-    write(`Dates: ${trip.startDate} → ${trip.endDate}`);
+    write(`Dates: ${trip.startDate} to ${trip.endDate}`);
     write(`Travelers: ${trip.travelers}`);
 
     write("Cost Breakdown:", 16);
-    write(`Transportation: INR ${trip.breakdown.transportation}`);
-    write(`Accommodation: INR ${trip.breakdown.accommodation}`);
-    write(`Food: INR ${trip.breakdown.food}`);
-    write(`Activities: INR ${trip.breakdown.activities}`);
-    write(`Misc: INR ${trip.breakdown.misc}`);
-    write(`Total Cost: INR ${trip.totalCost}`, 18);
+    write(`Transportation: INR ${trip.breakdown.transportation.toLocaleString()}`);
+    write(`Accommodation: INR ${trip.breakdown.accommodation.toLocaleString()}`);
+    write(`Food: INR ${trip.breakdown.food.toLocaleString()}`);
+    write(`Activities: INR ${trip.breakdown.activities.toLocaleString()}`);
+    write(`Misc: INR ${trip.breakdown.misc.toLocaleString()}`);
+    write(`Total Cost: INR ${trip.totalCost.toLocaleString()}`, 18);
 
     const pdfBytes = await pdf.save();
 

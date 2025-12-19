@@ -1,5 +1,145 @@
 [
   {
+    "id": "1766129319801",
+    "origin": "del",
+    "destination": "bom",
+    "startDate": "2025-12-20",
+    "endDate": "2025-12-28",
+    "travelers": "2",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 17474,
+      "accommodation": 20000,
+      "food": 8000,
+      "activities": 2400,
+      "misc": 600,
+      "flightPerPerson": 8737,
+      "flightSource": "amadeus"
+    },
+    "totalCost": 48474,
+    "meta": {
+      "nights": 8,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-19T07:28:39.802Z"
+  },
+  {
+    "id": "1766128870608",
+    "origin": "del",
+    "destination": "bom",
+    "startDate": "2025-12-12",
+    "endDate": "2025-12-27",
+    "travelers": "2",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 12000,
+      "accommodation": 37500,
+      "food": 15000,
+      "activities": 2400,
+      "misc": 600,
+      "flightPerPerson": 6000,
+      "flightSource": "fallback"
+    },
+    "totalCost": 67500,
+    "meta": {
+      "nights": 15,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-19T07:21:10.609Z"
+  },
+  {
+    "id": "1766128870608",
+    "origin": "del",
+    "destination": "bom",
+    "startDate": "2025-12-12",
+    "endDate": "2025-12-27",
+    "travelers": "2",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 12000,
+      "accommodation": 37500,
+      "food": 15000,
+      "activities": 2400,
+      "misc": 600,
+      "flightPerPerson": 6000,
+      "flightSource": "fallback"
+    },
+    "totalCost": 67500,
+    "meta": {
+      "nights": 15,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-19T07:21:10.609Z"
+  },
+  {
+    "id": "1766124608892",
+    "origin": "DEL",
+    "destination": "BOM",
+    "startDate": "2025-12-19",
+    "endDate": "2025-12-26",
+    "travelers": "1",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 8737,
+      "accommodation": 17500,
+      "food": 3500,
+      "activities": 1200,
+      "misc": 300,
+      "flightPerPerson": 8737,
+      "flightSource": "amadeus"
+    },
+    "totalCost": 31237,
+    "meta": {
+      "nights": 7,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-19T06:10:08.892Z"
+  },
+  {
+    "id": "1766124606631",
+    "origin": "DEL",
+    "destination": "BOM",
+    "startDate": "2025-12-19",
+    "endDate": "2025-12-26",
+    "travelers": "1",
+    "accommodation": "mid",
+    "transportation": "economy",
+    "promoCode": "",
+    "originIATA": "DEL",
+    "destinationIATA": "BOM",
+    "breakdown": {
+      "transportation": 8737,
+      "accommodation": 17500,
+      "food": 3500,
+      "activities": 1200,
+      "misc": 300,
+      "flightPerPerson": 8737,
+      "flightSource": "amadeus"
+    },
+    "totalCost": 31237,
+    "meta": {
+      "nights": 7,
+      "roomsNeeded": 1
+    },
+    "createdAt": "2025-12-19T06:10:06.631Z"
+  },
+  {
     "id": "1765424546236",
     "origin": "Delhi",
     "destination": "Mumbai",

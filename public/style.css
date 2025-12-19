@@ -83,3 +83,103 @@ input, select { width:100%; padding:8px; border:1px solid #ddd; border-radius:6p
   .hero h2 { font-size: 1.4rem; }
   .features-grid { grid-template-columns: 1fr; }
 }
+
+/* PRICING SECTION */
+#pricing-section h1 {
+  color: #4a90e2;
+}
+
+#pricing-section p {
+  color: black;
+  font-weight: bold;
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 80px 80px;
+  color: #4a90e2;
+}
+
+.card {
+  background: #151515;
+  border-radius: 14px;
+  padding: 35px 30px;
+  border: 1px solid #252525;
+  position: relative;
+}
+
+.card.popular {
+  border: 2px solid #2f80ed;
+}
+
+.badge {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2f80ed;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 42px;
+  margin: 15px 0;
+}
+
+.price span {
+  font-size: 16px;
+  color: #bdbdbd;
+}
+
+.subtitle {
+  color: #bdbdbd;
+  margin-bottom: 25px;
+}
+
+.features {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.features li {
+  margin-bottom: 12px;
+  color: #dcdcdc;
+}
+
+.features li::before {
+  content: "✔";
+  color: #2ecc71;
+  margin-right: 10px;
+}
+
+.card button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2f80ed;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.card.free button {
+  background: #2a2a2a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .pricing {
+    padding: 30px 20px 60px;
+  }
+}
